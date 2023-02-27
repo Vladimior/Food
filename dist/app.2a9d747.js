@@ -168,7 +168,7 @@ function cards(parentSelector) {
     }]);
     return MenuCard;
   }();
-  (0,_services_services__WEBPACK_IMPORTED_MODULE_0__.getResource)(' http://localhost:3000/menu').then(function (data) {
+  (0,_services_services__WEBPACK_IMPORTED_MODULE_0__.getResource)('https://vladimior.github.io/menu.json').then(function (data) {
     data.forEach(function (_ref) {
       var img = _ref.img,
         altimg = _ref.altimg,
@@ -733,7 +733,7 @@ window.addEventListener('DOMContentLoaded', function () {
   }, 50000);
   (0,_modules_tabs__WEBPACK_IMPORTED_MODULE_2__.tabs)('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
   (0,_modules_modal__WEBPACK_IMPORTED_MODULE_3__.modal)('[data-modal]', '.modal', modalTimerId);
-  (0,_modules_timer__WEBPACK_IMPORTED_MODULE_4__.timer)('.timer', '2023-02-05');
+  (0,_modules_timer__WEBPACK_IMPORTED_MODULE_4__.timer)('.timer', '2023-04-05');
   (0,_modules_cards__WEBPACK_IMPORTED_MODULE_5__.cards)(".menu .container");
   (0,_modules_calculator__WEBPACK_IMPORTED_MODULE_1__.calculator)('.calculating__result span');
   (0,_modules_forms__WEBPACK_IMPORTED_MODULE_6__.forms)('form', modalTimerId);
@@ -752,4 +752,4 @@ window.addEventListener('DOMContentLoaded', function () {
 
 /******/ })()
 ;
-//# sourceMappingURL=app.bbe1030.js.map
+//# sourceMappingURL=app.2a9d747.js.map
